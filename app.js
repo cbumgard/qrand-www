@@ -44,7 +44,7 @@ app.configure(function() {
       + config.redis.session_opts.port);
     sessionStore = new RedisStore(config.redis.session_opts);
   } else {
-    logger.warn('Redis not configured. Storing sessions in memory. See config.redis');
+    // logger.warn('Redis not configured. Storing sessions in memory. See config.redis');
     sessionStore = new connect.middleware.session.MemoryStore();
   };
   var session_config = {     

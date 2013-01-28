@@ -1,7 +1,7 @@
 var fs = require('fs');
 
 exports.app = app = {
-  title: 'node-boot',
+  title: 'qrand-www',
   host: 'localhost', // <= Change this to reflect the domain name this site is available on.
   port: 8000, // <= process.env.PORT overrides this, for hosted environments such as Heroku. Change to 443 if hosting for SSL.
   ssl: false, // Set to true once SSL certs are available and specified below:
@@ -11,16 +11,6 @@ exports.app = app = {
   //   cert: fs.readFileSync('./yourdomain.com.crt')
   // },
   cluster: true
-}
-
-exports.nav_bar = {
-  tweet: {
-    text: 'Check out @nodeboot on github!',
-    url: 'http://github.com/cbumgard/node-boot',
-    hashtags: 'nodejs',
-    original_referer: 'http://node-boot.herokuapp.com',
-    source: 'tweetbutton'
-  }
 }
 
 exports.logging = {

@@ -1,19 +1,9 @@
 exports.app = app = {
-  title: 'node-boot',
+  title: 'qrand-www',
   host: 'localhost',
   port: 8000,
   ssl: false,
   cluster: false
-}
-
-exports.nav_bar = {
-  tweet: {
-    text: 'Check out @nodeboot on github!',
-    url: 'http://github.com/cbumgard/node-boot',
-    hashtags: 'nodejs',
-    original_referer: 'http://node-boot.herokuapp.com',
-    source: 'tweetbutton'
-  }
 }
 
 exports.logging = {
