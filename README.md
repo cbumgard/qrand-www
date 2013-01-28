@@ -23,4 +23,4 @@ Please feel free to submit pull requests and contact me at [cbumgard@gmail.com](
 
 ## License
 
-This software is licensed via the [MIT License](https://github.com/cbumgard/qrand-www/blob/master/LICENSE). It is for fun and educational :-)
+This software is licensed via the [MIT License](https://github.com/cbumgard/qrand-www/blob/master/LICENSE). It is for fun and educational purposes :-)
