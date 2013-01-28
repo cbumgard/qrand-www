@@ -15,7 +15,6 @@ var app = module.exports = express()
   , server = require('http').createServer(app)
   , socketio = require('socket.io') 
   , sockets = require('./sockets')  
-  , qrand_socket = require('./sockets/qrand')
   , sessionStore // initialized dynamically depending on config
   , SessionSockets = require('session.socket.io')
   , sessionSockets // initialized dynamically based on sessionStore  
@@ -93,7 +92,7 @@ var startApp = function() {
   // Initialize socket.io sockets with express3 session integration:
   io = socketio.listen(server);
   sessionSockets = new SessionSockets(io, sessionStore, cookieParser);  
-  sockets(io, sessionSockets, [qrand_socket]);
+  sockets(io, sessionSockets, []);
 }
 
 var startCluster = function (onWorker, onDeath) {
