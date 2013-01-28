@@ -6,6 +6,8 @@ __qrand-www__ is a fun project to create a website that visualizes quantum rando
 
 Please check out the live demo running here: [http://qrand-6081.onmodulus.net](http://qrand-6081.onmodulus.net)
 
+![Demo Screenshot](http://content.screencast.com/users/cbumgard/folders/Jing/media/f21564bc-5c90-4dc6-a40a-1ed30a57d8e5/00000089.png)
+
 ## How To Start
 
 Clone or fork __qrand-www__ at https://github.com/cbumgard/qrand-www
