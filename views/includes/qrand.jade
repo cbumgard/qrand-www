@@ -1,4 +1,35 @@
 #main.container
   .row
     .span12
+      h1 Live Quantum Random Numbers
+      blockquote
+        p.lead by 
+          a(href='http://twitter.com/chrisbumgardner', target='_blank') @chrisbumgardner
+          | . check out the code on&nbsp;
+          a(href='http://github.com/cbumgard/qrand-www', target='_blank') github.
+        small: cite(title='Australian National University: Quantum Random Number Generator') Quantum random numbers provided by the 
+          a(href='http://photonics.anu.edu.au/qoptics/Research/qrng.php', target='_blank') ANU Quantum Optics Lab.
+          | &nbsp;More on 
+          a(href='#how-modal', data-toggle='modal') how it works.
+  .row
+    .span12
       p#octets
+
+//The random numbers are generated in real-time in our lab by measuring the quantum fluctuations of the vacuum. The vacuum is described very differently in the quantum mechanical context than in the classical context. Traditionally, a vacuum is considered as a space that is empty of matter or photons. Quantum mechanically, however, that same space resembles a sea of virtual particles appearing and disappearing all the time. This result is due to the fact that the vacuum still possesses a zero-point energy. Consequently, the electromagnetic field of the vacuum exhibits random fluctuations in phase and amplitude at all frequencies. By carefully measuring these fluctuations, we are able to generate ultra-high bandwidth random numbers.
+#how-modal.modal.hide.fade(tabindex='-1', role='dialog', aria-labelledby='headerLabel', aria-hidden='true')
+  .modal-header
+    button.close(type='button', data-dismiss='modal', aria-hidden='true') x
+    h3#headerLabel How Quantum Random Numbers Work
+  .modal-body
+    p.lead Described here:
+    blockquote
+      p Researchers at the ANU are generating true random numbers from a physical quantum source. We do this by splitting a beam of light into two beams and then measuring the power in each beam.  Because light is quantised, the light intensity in each beam fluctuates about the mean.  Those fluctuations, due ultimately to the quantum vacuum, can be converted into a source of random numbers. Every number is randomly generated in real time and cannot be predicted beforehand.
+      small: cite(title='Australian National University: Quantum Random Number Generator') ANU Quantum Optics Lab
+        a(href='http://photonics.anu.edu.au/qoptics/Research/qrng.php', target='_blank') &nbsp;(see original)    
+    p.lead And here:
+    blockquote        
+      p The random numbers are generated in real-time in our lab by measuring the quantum fluctuations of the vacuum. The vacuum is described very differently in the quantum mechanical context than in the classical context. Traditionally, a vacuum is considered as a space that is empty of matter or photons. Quantum mechanically, however, that same space resembles a sea of virtual particles appearing and disappearing all the time. This result is due to the fact that the vacuum still possesses a zero-point energy. Consequently, the electromagnetic field of the vacuum exhibits random fluctuations in phase and amplitude at all frequencies. By carefully measuring these fluctuations, we are able to generate ultra-high bandwidth random numbers.
+      small: cite(title='Australian National University: Quantum Random Number Generator') ANU Quantum Optics Lab
+        a(href='http://150.203.48.55/index.php', target='_blank') &nbsp;(see original)
+  .modal-footer
+    button.btn(data-dismiss='modal', aria-hidden='true') Close
