@@ -1,52 +1,22 @@
-Visit the node-boot dev blog [http://node-boot.blogspot.com/](http://node-boot.blogspot.com/) to see how to build your app based on node-boot.
+# qrand-www
 
-Visit http://node-boot.herokuapp.com/ for a live demo.
+__qrand-www__ is a fun project to create a website that visualizes quantum random numbers generated at the [Australian National University's Department of Quantum Science](http://photonics.anu.edu.au/qoptics/Research/qrng.php). It builds on the node.js [qrand](https://github.com/cbumgard/node-qrand) module I developed for fun to retrieve the quantum random numbers as hex octets from the ANU lab. The web site is based on [node-boot](https://github.com/cbumgard/node-qrand), another node.js project I have built as a means to bootstrap a node.js website quickly.
 
-What is __node-boot__?
-==================
+## How To Start
 
-__node-boot__ is a starting point for developing a web application based on a proven node.js stack:
+Clone or fork __qrand-www__ at https://github.com/cbumgard/qrand-www
 
-- [express]
-- [jade view templates]
-- [Twitter Bootstrap]
-- [Socket.io]
-- [MongoDB] & [Mongoose]
-- [Redis]
-- [Nodemailer]
-- [Winston]
-- [Passport OAuth]
+Make sure you have the latest stable version of node.js and npm installed. Here are full instructions if you want to clone it and run it locally:
 
-[express]: http://expressjs.com/
-[jade view templates]: http://jade-lang.com/
-[Twitter Bootstrap]: http://twitter.github.com/bootstrap/
-[Socket.io]: http://www.socket.io/
-[MongoDB]: http://www.mongodb.org/
-[Mongoose]: http://mongoosejs.com/
-[Redis]: http://redis.io/
-[Nodemailer]: http://www.nodemailer.com/
-[Winston]: https://github.com/flatiron/winston
-[Passport OAuth]: http://passportjs.org/
+    $ git clone https://github.com/cbumgard/qrand-www
+    $ cd qrand-www/
+    $ npm install
+    $ node app.js
 
-Why You Should Use It
-=====================
+You should now be able to connect to http://localhost:8000/.
 
-__node-boot__ is a starting point providing a sensible, configurable, and customizable set of choices. You get a turnkey web app that provides common patterns such as environment-specific configuration files, clustering for multiple cores, SSL certificate setup, database connections, logging transports, and caching and compression of content.
+Please feel free to submit pull requests and contact me at [cbumgard@gmail.com](mailto:cbumgard@gmail.com)
 
-The experience of building a production-ready, deployable web application involves making many choices: which technologies, what configuration settings, best practices, etc. While there is no one right set of choices, these are ones I have used in my own production web application and have found to be not only pragmatic and scalable, but a pleasure to work with. My hope is this might help you get off the ground fast so you can focus on building that awesome idea you've got in your head.
+## License
 
-How To Start
-============
-
-Fork __node-boot__ at https://github.com/cbumgard/node-boot
-
-Make sure you have the latest stable version of node.js and npm installed. Then just:
-
-1. `$ git clone https://github.com/cbumgard/node-boot`
-2. `$ cd node-boot/`
-3. `$ npm install`
-4. `$ node app.js`
-
-You should now be able to connect to http://localhost:8000/ and see a page just like this one.
-
-And now build your awesome web app! Please feel free to submit pull requests and contact me at cbumgard@gmail.com
+This software is licensed via the [MIT License](https://github.com/cbumgard/qrand-www/blob/master/LICENSE). It is for fun and educational :-)

@@ -80,7 +80,7 @@ exports.session = {
 
 //-- socket.io integration:
 exports.sockets = {
-  update_interval_ms: 3000,
+  update_interval_ms: 1000,
   log_level: 2 // 3 == debug, 2 == info, 1 == warn, 0 == error
 }
 

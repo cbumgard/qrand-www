@@ -1,0 +1,15 @@
+#main {
+  margin-top: 40px;
+}
+
+.octet {
+  font-family: 'Courier';
+  font-size: 40px;
+  font-weight: 100;
+  color: #C8C8C8;
+}
+
+.current {
+  font-weight: 800;
+  color: #505050;
+}

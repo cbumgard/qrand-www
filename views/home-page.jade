@@ -1,14 +1,14 @@
 extends layout
 
 append stylesheets
-  link(href='/assets/css/home-page.css', rel='stylesheet')
+  link(href='/assets/css/qrand.css', rel='stylesheet')
 
 append javascripts
-  script(src='/assets/js/home-page.js')
+  script(src='/assets/js/qrand.js')
   script(src='/socket.io/socket.io.js')
 
 append header
-  include includes/node-boot-nav
+  include includes/flash-messages
 
 block content
-  include includes/node-boot-content
+  include includes/qrand
