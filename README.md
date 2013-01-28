@@ -1,6 +1,6 @@
 # qrand-www
 
-__qrand-www__ is a fun project to create a website that visualizes quantum random numbers generated at the [Australian National University's Department of Quantum Science](http://photonics.anu.edu.au/qoptics/Research/qrng.php). It builds on the node.js [qrand](https://github.com/cbumgard/node-qrand) module I developed for fun to retrieve the quantum random numbers as hex octets from the ANU lab. The web site is based on [node-boot](https://github.com/cbumgard/node-qrand), another node.js project I have built as a means to bootstrap a node.js website quickly.
+__qrand-www__ is a fun project to create a website that visualizes quantum random numbers generated at the [Australian National University's Department of Quantum Science](http://photonics.anu.edu.au/qoptics/Research/qrng.php). It builds on the node.js [qrand](https://github.com/cbumgard/node-qrand) module I developed for fun to retrieve the quantum random numbers as hex octets from the ANU lab. The web site is based on [node-boot](https://github.com/cbumgard/node-boot), another node.js project I have built as a means to bootstrap a node.js website quickly.
 
 ## Live Demo
 
