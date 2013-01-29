@@ -1,3 +1,5 @@
+a.hidden-phone(href='https://github.com/cbumgard/qrand-www')
+  img(style='position: absolute; top: 0; right: 0; border: 0;', src='https://s3.amazonaws.com/github/ribbons/forkme_right_gray_6d6d6d.png', alt='Fork me on GitHub')
 #main.container
   .row
     .span12
@@ -14,6 +16,7 @@
   .row
     .span12
       p#octets
+        span#placeholder.octet Loading...
 
 //The random numbers are generated in real-time in our lab by measuring the quantum fluctuations of the vacuum. The vacuum is described very differently in the quantum mechanical context than in the classical context. Traditionally, a vacuum is considered as a space that is empty of matter or photons. Quantum mechanically, however, that same space resembles a sea of virtual particles appearing and disappearing all the time. This result is due to the fact that the vacuum still possesses a zero-point energy. Consequently, the electromagnetic field of the vacuum exhibits random fluctuations in phase and amplitude at all frequencies. By carefully measuring these fluctuations, we are able to generate ultra-high bandwidth random numbers.
 #how-modal.modal.hide.fade(tabindex='-1', role='dialog', aria-labelledby='headerLabel', aria-hidden='true')
