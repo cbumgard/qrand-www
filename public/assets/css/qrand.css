@@ -1,3 +1,7 @@
+body {
+  background: url('/assets/img/old_mathematics.png') repeat;  
+}
+
 #main {
   margin-top: 40px;
 }
